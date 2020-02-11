@@ -1,9 +1,9 @@
 var PROVIDER = (function() {
   var _allData = {};
-  var _currentPage = '';
+  var _currentPage = "";
 
   var _getData = function(callback) {
-    $.getJSON('data/data.json', function(data) {
+    $.getJSON("../data/data.json", function(data) {
       // this is when it is complete
       // console.log('success ', data);
     })
@@ -22,7 +22,7 @@ var PROVIDER = (function() {
   };
 
   var _getPageContent = function(nameOfPage) {
-    var content = '';
+    var content = "";
     $.each(_allData.Pages, function(idx, page) {
       if (nameOfPage === page.pageName) {
         content = page.content;
