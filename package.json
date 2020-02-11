@@ -1,0 +1,20 @@
+{
+  "name": "jsonstart",
+  "version": "1.0.0",
+  "description": "Populate site using JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass scss/styles.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Homework2"
+  },
+  "author": "Kalene Kingery",
+  "license": "ISC",
+  "devDependencies": {
+    "gitignore": "0.6.0",
+    "node-sass": "^4.13.1"
+  }
+}
